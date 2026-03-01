@@ -1,4 +1,4 @@
-import { getAllPosts } from "@/api/post.api";
+import { getAllPosts } from "@/app/api/post.api";
 import Link from "next/link";
 
 export default async function Posts() {

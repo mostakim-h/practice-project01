@@ -1,4 +1,4 @@
-import { getPostCommentsById } from "@/api/post.api";
+import { getPostCommentsById } from "@/app/api/post.api";
 
 export default async function Page({ params }: { params: Promise<{ id: string }> }) {
 

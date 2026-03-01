@@ -31,8 +31,8 @@ export default function RootLayout({
       >
         <SessionWrapper>
           <AuthButtons />
+          {children}
         </SessionWrapper>
-        {children}
       </body>
     </html>
   );
